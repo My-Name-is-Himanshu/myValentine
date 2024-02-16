@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <div id="header">
+            <nav>
+                <h4>Valentine gift for You</h4>
+            </nav>
+        </div>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz</h1>
+                    <div class="quiz-header">
+                        <span class="score"> Score: 0/5 </span>
+                    </div>
+
+                    <h2 class="question-text">Who do you love?</h2>
+
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A. Your friends</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Your family</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Me</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Food</span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                    <div class="result-box" >
+                        <h2>Your Result!</h2>
+                        <div class="percentage-container">
+                            <div class="circular-progress">
+                                <span class="progress-value">0%</span>
+                            </div>
+                        
+                            <span class="score-text">Your Score 0 out of 5</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="tryAgain-btn"> Try Again</button>
+                            
+                            <button class="goHome-btn" >Go To Home</button>
+                        </div>
+                    </div>
+            </section>
+
+             <section class="home">
+                <div class="home-content">
+                    <h1>Hello</h1>
+                    <h1 id="val">Valentine</h1>
+                    <div class="start-btn">
+                    <button>For you</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="pop-up">
+        <h2>Guide</h2>
+        <span class="info"> This is a small quiz!!</span>
+        <span class="info"> Made specially for you!!</span>
+
+        <div class="btn-grp">
+            <button class="info-btn exit">Exit</button>
+            <a href="#" class="info-btn continue">Continue</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
